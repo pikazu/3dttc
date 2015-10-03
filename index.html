@@ -7,7 +7,6 @@
 	<script src="tictactoe.js"></script>
 </head>
 <body>
-	<p id="win"></p>
 	<div id="board">
 		<table>
 			<tr id="row1">
@@ -26,6 +25,10 @@
 				<td id="9" class="box" onclick="move(this)"></td>
 			</tr>
 		</table>
+	</div>
+	<div id="other">
+		<button id="reset" onclick="reset()">Reset</button>
+		<p id="win"></p>
 	</div>
 </body>
 </html>

@@ -10,14 +10,22 @@
 }
 
 table {
+	margin: auto;
 	border-collapse: collapse;
+}
+
+#other {
+	margin: 10px;
+	text-align: center;
+	font-size: 50pt;
+}
+
+
+body {
+    background-color: lightblue;
 }
 
 /*
 #row1 {
 	background-color: red;
 }*/
-
-body {
-    background-color: lightblue;
-}
