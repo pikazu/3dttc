@@ -7,25 +7,61 @@
 	<script src="tictactoe.js"></script>
 </head>
 <body>
-	<h1>Tic Tac Toe</h1>
-	<div id="board">
-		<table>
-			<tr id="row1">
-				<td id="1" class="box" onclick="move(this)"></td>
-				<td id="2" class="box" onclick="move(this)"></td>
-				<td id="3" class="box" onclick="move(this)"></td>
-			</tr>
-			<tr id="row2">
-				<td id="4" class="box" onclick="move(this)"></td>
-				<td id="5" class="box" onclick="move(this)"></td>
-				<td id="6" class="box" onclick="move(this)"></td>
-			</tr>
-			<tr id="row3">
-				<td id="7" class="box" onclick="move(this)"></td>
-				<td id="8" class="box" onclick="move(this)"></td>
-				<td id="9" class="box" onclick="move(this)"></td>
-			</tr>
-		</table>
+	<h1>3D Tic Tac Toe</h1>
+	<div id="cube">
+		<div id="board1" class="board">
+			<table id="table1">
+				<tr id="row1">
+					<td id="31" class="box" onclick="move(this)"></td>
+					<td id="32" class="box" onclick="move(this)"></td>
+					<td id="33" class="box" onclick="move(this)"></td>
+				</tr>
+				<tr id="row2">
+					<td id="34" class="box" onclick="move(this)"></td>
+					<td id="35" class="box" onclick="move(this)"></td>
+					<td id="36" class="box" onclick="move(this)"></td>
+				</tr>
+				<tr id="row3">
+					<td id="37" class="box" onclick="move(this)"></td>
+					<td id="38" class="box" onclick="move(this)"></td>
+					<td id="39" class="box" onclick="move(this)"></td>
+				</tr>
+			</table>
+			<table id="table2">
+				<tr id="row1">
+					<td id="11" class="box" onclick="move(this)"></td>
+					<td id="12" class="box" onclick="move(this)"></td>
+					<td id="13" class="box" onclick="move(this)"></td>
+				</tr>
+				<tr id="row2">
+					<td id="14" class="box" onclick="move(this)"></td>
+					<td id="15" class="box" onclick="move(this)"></td>
+					<td id="16" class="box" onclick="move(this)"></td>
+				</tr>
+				<tr id="row3">
+					<td id="17" class="box" onclick="move(this)"></td>
+					<td id="18" class="box" onclick="move(this)"></td>
+					<td id="19" class="box" onclick="move(this)"></td>
+				</tr>
+			</table>
+			<table id="table3">
+				<tr id="row1">
+					<td id="21" class="box" onclick="move(this)"></td>
+					<td id="22" class="box" onclick="move(this)"></td>
+					<td id="23" class="box" onclick="move(this)"></td>
+				</tr>
+				<tr id="row2">
+					<td id="24" class="box" onclick="move(this)"></td>
+					<td id="25" class="box" onclick="move(this)"></td>
+					<td id="26" class="box" onclick="move(this)"></td>
+				</tr>
+				<tr id="row3">
+					<td id="27" class="box" onclick="move(this)"></td>
+					<td id="28" class="box" onclick="move(this)"></td>
+					<td id="29" class="box" onclick="move(this)"></td>
+				</tr>
+			</table>
+		</div>
 	</div>
 	<div id="other">
 		<button id="reset" onclick="reset()">Reset</button>
