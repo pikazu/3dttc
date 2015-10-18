@@ -38,6 +38,11 @@ table {
 	transform: translateY(-350px) rotateX(70deg) rotateZ(45deg);
 }
 
+#b5 {
+	background-color: transparent;
+	pointer-events: none;
+}
+
 #other {
 	text-align: center;
 	font-size: 40px;
